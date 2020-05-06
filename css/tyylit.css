@@ -1,0 +1,120 @@
+
+.navigointi {
+	overflow: hidden;
+	text-align: right;
+	padding-right: 50px;
+	padding-top: 10px;
+	color: black;
+
+}
+
+.container {
+		text-align: center;
+		margin-bottom: 100px;
+}
+	
+.button {
+		color: black;
+}
+.row {
+	color: black;
+	border-bottom:2px solid black;
+	padding: 1em;
+}
+	
+.title {
+	font-size: 100px;
+	text-align: center;
+}
+
+.nav-link {	
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}	
+.nav-link:hover {
+	color: #A9A9A9;
+}
+	
+.nav-link:link {
+	color: #000000;
+	transition: 0.5s ;
+}
+	
+
+@media screen and (max-width: 800px) {
+body {
+background-color: #888888;
+}
+}
+
+.footer-link {
+	text-align: right;
+	font-size: 10px;
+}
+footer {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 100px;
+}
+
+.kuvaus {
+	text-align: left;
+	padding: 20px;
+	color: #696969;
+	border-bottom: black;
+}
+	
+.linkkiteksti {
+
+}
+
+.link-pic {
+	text-align: left;
+	padding-right: 30px;
+	padding-bottom: 10px;
+	
+}
+
+.blogimage {
+	height: 200px; 
+	color: black;
+	border-bottom:2px solid black;
+	padding-bottom: 1em;
+	padding-left: 35%;
+	padding-right: 35%;
+	text-align: center; 
+}
+
+.subtitle {
+	text-align: center;
+	text-shadow: 2px 2px 8px #888888;
+}
+.card-title {
+	font-size: 15px;
+}
+
+.card-body { 
+	height: 200px;
+	margin: 10px;
+	overflow: hidden;
+	font-size: 10px;
+}
+
+#yt3 {  
+  margin-top: 10px;
+  margin-bottom: 150px;
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 5px #888888;
+}
+
+#taustakuva {
+
+  background: url(img/Veijo_makkarat.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
