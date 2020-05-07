@@ -10,7 +10,7 @@
 
 .container {
 		text-align: center;
-		margin-bottom: 100px;
+		margin-bottom: 200px;
 }
 	
 .button {
@@ -27,7 +27,11 @@
 	font-size: 8vw;
 	text-align: center;
 }
-
+.title1 {
+	font-size: 8vw;
+	text-align: center;
+	padding: 20px;
+}
 .nav-link {	
 	list-style-type: none;
 	margin: 0;
@@ -36,13 +40,7 @@
 .nav-link:hover {
 	color: #A9A9A9;
 }
-	
-body {
-	background: url(img/lumi.jpg);
-	backgroun
-	background-size: cover;
-
-}	
+		
 
 .nav-link:link {
 	color: #000000;
@@ -54,15 +52,10 @@ a {
 }	
 
 a:hover {
-	color: blue;
+	color: gray;
 	transition: 0,2;
 }
 
-@media screen and (max-width: 800px) {
-body {
-
-}
-}
 
 .footer-link {
 	text-align: right;
@@ -84,7 +77,7 @@ footer {
 }
 	
 .linkkiteksti {
- 	text-shadow: 2px 2px 8px #888888;
+
 }
 
 .link-pic {
@@ -119,7 +112,29 @@ footer {
 	font-size: 10px;
 }
 
-.cont1 {
-	margin-bottom: 200px;
+.mybutton {
+	box-shadow:inset 0px 1px 0px 0px #91b8b3;
+	background:linear-gradient(to bottom, #768d87 5%, #6c7c7c 100%);
+	background-color:#768d87;
+	border-radius:6px;
+	border:1px solid #566963;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2b665e;
 }
+
+.cont1 {
+	background: url(img/kalajoki3.jpg);
+	background-repeat: none;
+	background-size: cover;
+	padding-bottom: 100px;
+	margin-bottom: 10px;
+}
+
  
