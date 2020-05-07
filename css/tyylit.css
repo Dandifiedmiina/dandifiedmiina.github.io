@@ -76,9 +76,6 @@ footer {
 	border-bottom: black;
 }
 	
-.linkkiteksti {
-
-}
 
 .link-pic {
 	text-align: left;
@@ -137,4 +134,8 @@ footer {
 	margin-bottom: 10px;
 }
 
- 
+
+.insta {
+	padding: 25px;
+	margin: 25px;
+}
