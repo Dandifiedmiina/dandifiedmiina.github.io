@@ -1,10 +1,11 @@
-
 .navigointi {
-	overflow: hidden;
-	text-align: right;
-	padding-right: 50px;
-	padding-top: 10px;
-	color: black;
+	
+	
+  display: block;
+  padding: 15px;
+  margin-bottom: 10px;
+  background-color: #EBEDEF;
+  text-align: center;
 
 }
 
@@ -32,17 +33,26 @@
 	text-align: center;
 	padding: 20px;
 }
-.nav-link {	
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-}	
-.nav-link:hover {
+ul {
+  list-style-type: none;
+}
+
+ul li {
+	display: inline;
+}
+
+.nav-link2 {
+	padding: 20px;
+	font-size: 20px;
+	text-align: center;
+}
+
+.nav-link2:hover {
 	color: #A9A9A9;
 }
 		
 
-.nav-link:link {
+.nav-link2:link {
 	color: #000000;
 	transition: 0.5s ;
 }
@@ -77,12 +87,7 @@ footer {
 }
 	
 
-.link-pic {
-	text-align: left;
-	padding-right: 30px;
-	padding-bottom: 10px;
-	
-}
+
 
 .blogimage {
 	height: 200px; 
