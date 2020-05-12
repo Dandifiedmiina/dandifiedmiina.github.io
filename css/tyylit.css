@@ -61,7 +61,6 @@ ul li {
 
 @media only screen and (max-width: 600px){
   .nav-link2 {
-	  font-size: auto;
 	  padding: 0px;
 	  }
 
@@ -73,7 +72,7 @@ a {
 
 a:hover {
 	color: gray;
-	transition: 0,2;
+	transition: 0.5s ;
 }
 
 
@@ -143,7 +142,6 @@ footer {
 
 .cont1 {
 	background: url(img/kalajoki3.jpg);
-	background-repeat: none;
 	background-size: cover;
 	padding-bottom: 100px;
 	margin-bottom: 10px;
@@ -156,8 +154,7 @@ footer {
 
 @media only screen and (max-width: 600px){
   .insta{
-	  padding: 0px;
-	  margin; 0px;
+	  padding: 0px;	margin: 0px;
 	  }
 
 }
