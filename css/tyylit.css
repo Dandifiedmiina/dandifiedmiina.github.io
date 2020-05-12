@@ -64,6 +64,7 @@ ul li {
 	  font-size: auto;
 	  padding: 0px;
 	  }
+
 }
  
 a {
@@ -148,3 +149,15 @@ footer {
 	margin-bottom: 10px;
 }
 
+.insta {
+	padding: 25px;
+	margin: 25px;
+}
+
+@media only screen and (max-width: 600px){
+  .insta{
+	  padding: 0px;
+	  margin; 0px;
+	  }
+
+}
