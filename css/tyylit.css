@@ -147,6 +147,28 @@ footer {
 	margin-bottom: 10px;
 }
 
+.lomake {
+	padding-top: 10px;
+}
+
+.lomake2 {
+	padding: 5px;
+}
+
+input[type=text]{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #5499C7;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit]:hover {
+  background-color: #5499C7;
+}
+
 .insta {
 	padding: 25px;
 	margin: 25px;
